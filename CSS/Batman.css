@@ -3,6 +3,7 @@ body {
     background-color: black;
     font-family:'Orbitron', sans-serif; 
     color: goldenrod;
+    font-size: 15px;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 header h1 {
     color: goldenrod;
     font-size: 70px;
-    /* find a cool font to use online*/
 }
 
 header img {
@@ -21,3 +21,33 @@ header img {
         /*Find out why my pic isn't a circle */
 }
 
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img {
+    width: 700px;
+    max-width: 100%;
+}
+
+h2 {
+    color: gray;
+    font-size: 30px;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:hover {
+    color: indigo;
+}
+
+footer {
+    text-align: center;
+}
+
+/*find second font to use for body text, replace that in body ruleset. 
+add h1 and h2 ruleset, apply orbitron font to those*/
