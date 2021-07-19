@@ -16,20 +16,21 @@ header h1 {
 }
 
 header img {
-        border-radius: 400px;
-        width: 800px; 
+        border-radius: 350px;
+        width: 700px; 
         /*Find out why my pic isn't a circle */
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 main img {
-    width: 700px;
+    width: 600px;
     max-width: 100%;
+    margin-top: 50px;
 }
 
 h2 {
@@ -46,8 +47,29 @@ a:hover {
 }
 
 footer {
+    background-color: gray;
     text-align: center;
+    color: white;
+    padding: 10px;
 }
 
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+}
 /*find second font to use for body text, replace that in body ruleset. 
 add h1 and h2 ruleset, apply orbitron font to those*/
