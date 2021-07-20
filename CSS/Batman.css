@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: black;
-    font-family:'Orbitron', sans-serif; 
+    font-family: 'Orbitron', sans-serif;
     color: goldenrod;
     font-size: 15px;
 }
@@ -13,12 +13,12 @@ header {
 header h1 {
     color: goldenrod;
     font-size: 70px;
+    font-family: 'Bangers', cursive;
 }
 
 header img {
-        border-radius: 350px;
-        width: 700px; 
-        /*Find out why my pic isn't a circle */
+        border-radius: 200px;
+        width: 400px; 
 }
 
 main {
@@ -36,6 +36,7 @@ main img {
 h2 {
     color: gray;
     font-size: 30px;
+    font-family: 'Bangers', cursive;
 }
 
 a {
@@ -71,5 +72,6 @@ p.caption{
     font-style: italic;
     margin-top: 0;
 }
+
 /*find second font to use for body text, replace that in body ruleset. 
 add h1 and h2 ruleset, apply orbitron font to those*/
