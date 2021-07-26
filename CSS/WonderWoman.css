@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #2a4a8b;
+    font-family: Helvetica, Arial;
+    color: #f8d90f;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #f8d90f;
+    font-family: 'Bangers', Arial;
+    font-size: 70px;
+    text-shadow: 3px 3px 3px #010a0f;
+}
+
+header img {
+    margin-top: 50px;
+    border-radius: 220px;
+    width: 400px;
+    border: 10px solid #af261c;
+    box-shadow: 5px 5px 15px 5px #010a0f;
+}
+
+main h2 {
+    font-family: 'Bangers', Arial;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #010a0f;
+}
+/* To Do
+change favicon for Batman/Superman to their symbols
+change link decoration to none in "friends" section */
