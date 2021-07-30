@@ -25,11 +25,54 @@ header img {
     box-shadow: 5px 5px 15px 5px #010a0f;
 }
 
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img {
+    width: 600px;
+    max-width: 100%;
+    margin-top: 50px;
+
+}
+
+p.caption {
+    font-style: italic;
+    margin-top: 0;
+}
+
 main h2 {
     font-family: 'Bangers', Arial;
     font-size: 30px;
     text-shadow: 2px 2px 2px #010a0f;
 }
-/* To Do
-change favicon for Batman/Superman to their symbols
-change link decoration to none in "friends" section */
+
+a {
+    color: #f8d90f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #f8d90f;
+    text-align: center;
+    color: #2a4a8b;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #af261c;
+}
+
+footer a:hover {
+    color: black;
+}

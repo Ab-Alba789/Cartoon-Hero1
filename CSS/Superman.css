@@ -47,6 +47,7 @@ h2 {
 
 a {
     color: #013766;
+    text-decoration: none;
 }
 
 a:hover {
@@ -60,4 +61,13 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+p.caption{
+    font-style: italic;
+    margin-top: 0;
 }
