@@ -1,3 +1,78 @@
 body {
-    
+    margin: 0;
+    background-color: black;
+    font-family: Helvetica, Arial;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+
+header {
+    background-color: #062FEF;
+    text-align: center;
+}
+
+header img {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 220px;
+    border: solid 10px black;
+}
+
+header h1 {
+    font-family: "Bangers", Helvetica;
+    font-size: 70px;
+    text-shadow: 3px 3px 3px black;
+    color: gray;
+}
+
+h2 {
+    font-family: "Bangers", Arial;
+    font-size: 30px;
+    color: gray;
+}
+
+p{
+    font-family: "Orbitron", Helvetica, Arial;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 50px;
+
+}
+
+.caption {
+    font-style: italic;
+    margin-top: 0px;
+}
+
+main a {
+    color: #062FEF;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #062FEF;
+}
+
+footer a {
+    color: gray;
+}
+
+footer a:hover {
+    background-color: whitesmoke;
+    font-size: 16px;
 }
