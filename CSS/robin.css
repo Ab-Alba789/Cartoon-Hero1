@@ -1,3 +1,53 @@
-header {
-    background-color: red;
+body {
+    margin: 0;
 }
+
+header {
+    background-color: #BD0100;
+    font-size: 50px;
+    font-family: "Bangers", Arial;
+    text-align: center;
+    color: #118015;
+}
+
+header img {
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 220px;
+    border: solid 10px #F6F5AE;
+    box-shadow: 5px 5px 15px 5px #040303;
+}
+
+main {
+    background-color: #FFDE01;
+    font-family: "Orbitron", Arial;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Bangers", Arial;
+}
+
+main img {
+    width: 500px;
+}
+
+.caption {
+    margin-top: 0;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #118015;
+}
+
+a:hover {
+    background-color: #118015;
+    color: whitesmoke;
+}
+footer {
+    background-color: #BD0100;
+}
+
