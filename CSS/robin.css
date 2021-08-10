@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-color: #FFDE01;
+    font-size: 15px;
+    text-align: center;
 }
 
 header {
@@ -18,10 +21,17 @@ header img {
     box-shadow: 5px 5px 15px 5px #040303;
 }
 
+header h1 {
+    text-shadow: 2px 2px 2px #040303;
+}
+
 main {
-    background-color: #FFDE01;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
     font-family: "Orbitron", Arial;
     text-align: center;
+
 }
 
 h2 {
@@ -31,6 +41,7 @@ h2 {
 
 main img {
     width: 500px;
+    max-width: 100%;
 }
 
 .caption {
@@ -48,6 +59,7 @@ a:hover {
     color: whitesmoke;
 }
 footer {
+    padding-top: 5px;
     background-color: #BD0100;
 }
 
