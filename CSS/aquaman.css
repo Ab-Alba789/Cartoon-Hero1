@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
-    color: #1b264f;
+    color: whitesmoke;
 }
 
 header {
@@ -43,6 +43,7 @@ main img {
 h2 {
     font-size: 50px;
     font-family: "Bangers", Arial;
+    color: #1b264f;
 }
 
 .caption {
@@ -57,20 +58,17 @@ a {
 }
 
 a:hover {
-    color: #174e33;
+    color: whitesmoke;
     font-size: 16px;
 }
 
 footer {
     background-color: #174e33;
     text-align: center;
+    padding: 10px;
 }
 
 footer a {
     color: #cc952e;
 }
 
-
-
-/* Figure out Why Robin's page footer does not cover entire page...Possibly because body background color is set, and footer 
-needs to be extended to cover the body */
