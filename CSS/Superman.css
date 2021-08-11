@@ -25,6 +25,7 @@ header img {
     border-radius: 220px;
     width: 400px;
     border: 10px solid goldenrod;
+    box-shadow: 5px 5px 15px 5px #010a0f;
 }
 
 main {

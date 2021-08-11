@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #FFDE01;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-family: "Orbitron", Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
 }
@@ -47,6 +47,7 @@ main img {
 .caption {
     margin-top: 0;
     font-style: italic;
+    font-size: 15px;
 }
 
 a {
@@ -59,6 +60,7 @@ a:hover {
     color: whitesmoke;
 }
 footer {
+    font-size: 15px;
     font-family: "Orbitron", Arial;
     padding-top: 5px;
     background-color: #BD0100;
